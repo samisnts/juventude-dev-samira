@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <style>
+        table {
+            /* Junta as bordas duplas em uma linha única */
+            border-collapse: collapse; 
+            width: 100%;
+            max-width: 600px;
+            font-family: sans-serif;
+        }
+
+        th, td {
+            /* Cria a linha do quadradinho (espessura, estilo, cor) */
+            border: 1px solid #111111; 
+            /* Espaço interno para o texto não colar na borda */
+            padding: 10px; 
+            /* Alinha o texto à esquerda (mude para 'center' se quiser centralizado) */
+            text-align: left; 
+        }
+
+        th {
+            /* Deixa o fundo do cabeçalho cinza claro */
+            background-color: #f2f2f2; 
+        }
+    </style>
+    <h1>Controle de trabalho</h1>
+    <img src="recursos.png" alt="descrição da imagem">
+    <h2>Sistema de controle de salários e contratações</h2>
+    <h1>Formulário de cadastro</h1>
+    <label for="nome">digite seu nome</label>
+    <br>
+    <input type="text" id="nome" name="nome"
+    placeholder="digite seu nome">
+    <br>
+    <label for="cargo">digite seu cargo</label>
+    <br>
+    <input type="text" id="cargo" name="cargo"
+     placeholder="digite seu cargo">
+     <br>
+     <label for="salário">digite seu salário</label>
+     <br>
+     <input type="text" id="salário" name="salário"
+     placeholder="digite seu salário">
+     <br>
+
+     <h2>Tabela de controle</h2>
+     <table borde="1">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Cargo</th>
+                <th>Salário</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>João silva</td>
+                    <td>Eng. Elétrico</td>
+                    <td>R$ 11.153,00</td>
+                </tr>
+                <tr>
+                    <td>Maria Joaquina</td>
+                    <td>Veterinária</td>
+                    <td>R$  4.500,00</td>
+                </tr>
+                <tr>
+                    <td>Monica</td>
+                    <td>Designer de site</td>
+                    <td>R$ 2.800,00</td>
+                </tr>
+                <tr>
+                    <td>Pantera cor de rosa</td>
+                    <td>Arquiteta</td>
+                    <td>R$ 2.500,00</td>
+                </tr>
+                </tbody>
+                </table>
+</body>
+</html>
