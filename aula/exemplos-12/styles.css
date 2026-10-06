@@ -1,0 +1,26 @@
+body{
+    background: #f4f7fb;
+    font-family: Arial, sans-serif
+}
+h1{
+    color: #2563eb;
+}
+.box{
+    width: 300px;
+    /* height: 400px; */
+    padding: 20px;
+    margin:20px;
+    color:#1e293b;
+    background:#dbeafe;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+p {
+    color: red;
+}
+
+#box{
+    background: #2563eb;
+}
